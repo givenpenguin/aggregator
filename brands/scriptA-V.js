@@ -323,7 +323,7 @@ function menuBrend(brends) {
     const menuEl = document.createElement("div")
     menuEl.classList.add("dropdown__menu")
 
-    menuEl.innerHTML += `<a href="https://givenpenguin.github.io/aggregator/" class="dropdown__link">Все бренды &#11119;</a>`
+    menuEl.innerHTML += `<a href="aggregator/" class="dropdown__link">Все бренды &#11119;</a>`
 
     brends.forEach(brend => {
         menuEl.innerHTML += `<a href="${brend.link}" class="dropdown__link">${brend.name}</a>
